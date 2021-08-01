@@ -1,0 +1,73 @@
+.logo {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-right: 50px;
+}
+.principal {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.porquinho {
+    width: 35%;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.beneficios {
+    text-align: center;
+    border-color: black;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.beneficios li:hover {
+    font-size: 22px;
+    color:rgb(76, 129, 216)
+}
+
+#login {
+    margin-top: 80px;
+}
+
+input {
+    border-color: rgb(76, 129, 216);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.Entrar:active {
+    color:rgb(64, 189, 6);
+    cursor: pointer;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 50px;
+}
