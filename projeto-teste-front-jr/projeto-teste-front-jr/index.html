@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco da Bia - Open Banking</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+    <body>
+        <header>
+                 <img class="logo" src="img/open-banking.png" alt="Figuras de Banco">
+                
+                <nav>
+                   <h1><a href="#login">Clique aqui pra acessar sua conta</a></h1>
+                </nav>
+        </header>
+
+        <main>
+            <section class="principal">
+
+                <h2><strong>Conheça as vantagens e se junte a esse Open Banking!</strong></h2> 
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit efficitur porttitor. 
+                    Maecenas dignissim, augue non mollis varius, justo libero condimentum nunc, ut sodales ex 
+                    nulla non libero. Suspendisse varius orci eu leo pharetra, eu rhoncus ipsum euismod. In 
+                    fringilla odio sed turpis condimentum, sed dictum eros varius. Donec varius congue consectetur. 
+                    Vivamus blandit sagittis lacus ac ornare. Pellentesque blandit felis ut velit suscipit pulvinar. 
+                    Curabitur tincidunt finibus convallis.</p>
+
+                <p>Morbi malesuada luctus nibh, a tempor ipsum ornare non. Ut sit amet magna nulla. Integer sem tortor, 
+                    ullamcorper sed tempus a, auctor sed arcu. Vestibulum quis luctus nunc, at placerat elit. Fusce vitae 
+                    purus eget velit tempus dapibus. Integer vitae faucibus magna. Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Morbi pretium dolor eget iaculis mattis. Orci varius natoque penatibus et magnis dis 
+                    parturient montes, nascetur ridiculus mus. Duis malesuada dolor id ex sollicitudin, ut lacinia lacus 
+                    condimentum. Praesent sed sem at arcu commodo dictum sit amet vel sapien. Aenean eu quam mollis, 
+                    viverra dui et, accumsan tortor. Aenean felis nisi, venenatis eu sodales ut, ultricies sed est.</p>
+
+            </section>
+
+            <section>
+                <img class="porquinho" src="img/porquinho.png" alt="Cofre de Porquinho">
+                <h3><strong>Benefícios do Open Banking</strong></h3>
+            
+                    <ul class="beneficios">
+                        <li>Menores taxas</li>
+                        <li>Maior segurança de dados</li>
+                        <li>Melhor experiência para o usuário</li>
+                        <li>Maior competitividade</li>
+                        <li>Mais transparência</li>
+                    </ul>
+                </div>    
+            </section>  
+
+            <section id="login">
+                <form>
+                    <label for="conta">Conta</label>
+                    <input type="number" id="conta" class="input-padrao" required placeholder="XXXXX-X">
+                    
+                    <label for="agencia">Agência</label>
+                    <input type="number" id="agencia" class="input-padrao" required placeholder="XXXX-X">
+
+                    <label for="senha">Senha</label>
+                    <input type="number" id="senha" class="input-padrao" required placeholder="XXXXXXXX">
+    
+                    <label class="checkbox"><input type="checkbox" checked>Guardar agência e conta</label>
+    
+                    <input onClick ="validaformulario()" type="submit" value="Entrar" class="Entrar">
+                </form>
+            </section>
+        </main>      
+
+        <footer>
+            <p class="copyright">&copy; Copyright Banco da Bia - Open Banking</p>
+        </footer>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
