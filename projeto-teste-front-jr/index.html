@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +9,7 @@
 </head>
     <body>
         <header>
-                 <img class="logo" src="img/open-banking.png" alt="Figuras de Banco">
+                <img class="logo" src="img/open-banking.png" alt="Figuras de Banco">
                 
                 <nav>
                    <h1><a href="#login">Clique aqui pra acessar sua conta</a></h1>
@@ -17,9 +17,8 @@
         </header>
 
         <main>
-            <section class="principal">
-
-                <h2><strong>Conheça as vantagens e se junte a esse Open Banking!</strong></h2> 
+            <h2><strong>Conheça as vantagens e se junte a esse Open Banking!</strong></h2>
+            <div class="principal"> 
                 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit efficitur porttitor. 
                     Maecenas dignissim, augue non mollis varius, justo libero condimentum nunc, ut sodales ex 
@@ -36,9 +35,9 @@
                     condimentum. Praesent sed sem at arcu commodo dictum sit amet vel sapien. Aenean eu quam mollis, 
                     viverra dui et, accumsan tortor. Aenean felis nisi, venenatis eu sodales ut, ultricies sed est.</p>
 
-            </section>
+            </div>
 
-            <section>
+            <div class="flex-container">
                 <img class="porquinho" src="img/porquinho.png" alt="Cofre de Porquinho">   
             
                     <ul class="beneficios">
@@ -49,9 +48,9 @@
                         <li>Maior competitividade</li>
                         <li>Mais transparência</li>
                     </ul>    
-            </section>  
+            </div>  
 
-            <section class="login">
+            <div id="login">
                 <form>
                     <label for="conta">Conta</label>
                     <input type="number" id="conta" class="input-padrao" required placeholder="XXXXX-X">
@@ -66,7 +65,7 @@
     
                     <input onClick ="validaformulario()" type="submit" value="Entrar" class="Entrar">
                 </form>
-            </section>
+            </div>
         </main>      
 
         <footer>
