@@ -6,3 +6,5 @@ Implementação do CSS Reset para limpar os padrões dos elementos do HTML.
 
 Criação do validaFormulario no Java Script (chamando a validação do js no html) para validar os dados do login (conta, agência e senha), 
 retornando uma mensagem quando sucesso e outra mensagem quando insucesso no login.
+
+As demais linguagens e tecnologias, assim como as sugestões não foram utilizadas por falta do meu conhecimento técnico prévio nesses itens.
